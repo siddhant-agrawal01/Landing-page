@@ -10,13 +10,13 @@ import Image from 'next/image';
 const Features = () => {
   return (
     <div className="max-w-[1050px] mx-auto">
-      <div className="flex justify-between items-center">
-        <div className="w-[50%] relative">
-          <Image src={premiumleft} alt='/' className='absolute lg:top-0 right-10 top-[100px]' />
-          <Image src={star48} alt='/' className='absolute lg:top-[150px] top-[100px]' />
-          <Image src={premium} alt='/' className="relative"/>
+      <div className="flex flex-col lg:flex-row justify-between items-center">
+        <div className="w-full lg:w-[50%]  relative">
+          <Image src={premiumleft} alt='/' className='absolute lg:top-0 right-10 top-[100px] hidden lg:block' />
+          <Image src={star48} alt='/' className='absolute lg:top-[150px] top-[100px] hidden lg:block' />
+          <Image src={premium} alt='/' className="relative hidden lg:block"/>
         </div>
-        <div className="flex flex-col gap-2 w-[50%] relative">
+        <div className="flex flex-col gap-2 w-full lg:w-[50%] relative px-6">
             <p className="text-red-600 font-ClashDisplay-Medium tracking-widest text-xl">FEATURES</p>
             <h1 className="text-5xl pb-4 font-ClashDisplay-Bold leading-normal">Uifry Premium</h1>
             <div className="flex flex-col gap-3 max-w-[505px] pb-4">

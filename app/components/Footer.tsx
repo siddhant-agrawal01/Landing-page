@@ -49,15 +49,15 @@ const Footer = () => {
               Stay Up to Date
             </p>
           </div>
-          <div className="flex font-ClashDisplay-Medium">
+          <div className="flex-col w-full gap-2 sm:flex-row  font-ClashDisplay-Medium  ">
             <input
-              className="pl-2 py-3 rounded"
+              className="pl-2 py-3 rounded sm:flex-1 w-full"
               type="email"
               name="mail"
               id="mail"
               placeholder="Your email"
             />
-            <button className="bg-black text-white text-center px-10 py-3 rounded">
+            <button className="bg-black text-white text-center px-10 py-3 my-3 rounded">
               Subscribe
             </button>
           </div>

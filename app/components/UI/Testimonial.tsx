@@ -24,15 +24,15 @@ const Testimonial = () => {
           What Our Users <br></br> Say About Us?
         </h1>
       </div>
-      <div className="flex justify-between items-center">
-        <div className="w-[50%] relative">
-          <Image src={group} alt="/" className=" relative z-40" />
+      <div className="flex flex-col lg:flex-row justify-between items-center">
+        <div className="relative w-full lg:w-[50%] hidden lg:block">
+          <Image src={group} alt="/" className=" relative z-40 hidden lg:block" />
           <Image src={star48} alt="/" className="absolute -left-32 bottom-10 " />
-          <Image src={premiumleft} alt='/' className='absolute  z-0 lg:top-0 right-10 top-[100px]' />
+          <Image src={premiumleft} alt='/' className='absolute  z-0 lg:top-0 right-10 top-[100px] hidden lg:block ' />
 
         </div>
-        <div className="flex flex-col gap-2 w-[50%] mt-12">
-          <div className="flex flex-col gap-3 max-w-[505px] pb-4 items-start">
+        <div className="flex flex-col  gap-2 w-full lg:w-[50%] mt-12 px-8">
+          <div className="flex flex-col gap-3 w-full lg:max-w-[505px] pb-4 items-start">
             <p className="flex gap-2 font-ClashDisplay-Semibold text-2xl sm:text-3xl">
               The Best Financial Accounting App Ever!
             </p>
