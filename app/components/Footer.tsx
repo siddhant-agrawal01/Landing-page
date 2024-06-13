@@ -67,10 +67,9 @@ const Footer = () => {
         <hr className="border-none h-[2px] w-full bg-custom-gradient shadow-custom-blur"></hr>
       </div>
       <div className="relative w-full mx-auto my-10">
-      <h1 className="text-center font-ClashDisplay-Medium text-base sm:text-lg md:text-xl lg:text-xl p-4">
-  Copyright 2024 Uifry.Com All Rights Reserved
-</h1>
-
+        <h1 className="text-center font-ClashDisplay-Medium text-base sm:text-lg md:text-xl lg:text-xl p-4">
+          Copyright 2024 Uifry.Com All Rights Reserved
+        </h1>
       </div>
     </div>
   );

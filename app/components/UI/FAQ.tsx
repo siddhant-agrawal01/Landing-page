@@ -20,9 +20,9 @@ const FAQ = () => {
           className="absolute right-0 bottom-5 left-[600px]"
         />
       </div>
-      <div className="flex flex-col gap-4 mb-4">
-        <div className="flex gap-4">
-          <div className="max-w-[520px] rounded-lg p-6 text-white bg-[#fd6257]">
+      <div className="flex flex-col  gap-4 mb-4">
+        <div className="flex  flex-col sm:flex-row gap-4 mx-3">
+          <div className=" w-full sm:max-w-[520px]  rounded-lg p-6 text-white bg-[#fd6257]">
             <h1 className="text-3xl pb-2 font-ClashDisplay-Semibold">
               The Best Financial Accounting <br></br> App Ever!
             </h1>
@@ -31,7 +31,7 @@ const FAQ = () => {
               ultricies. In ultrices malesuada elit mauris.&quot;
             </p>
           </div>
-          <div className="max-w-[520px] rounded-lg p-6 text-black bg-white">
+          <div className="w-full sm:max-w-[520px] rounded-lg p-6 text-black bg-white">
             <h1 className="font-ClashDisplay-Semibold text-2xl pb-2">
               The Best Financial Accounting <br></br> App Ever!
             </h1>
@@ -41,8 +41,8 @@ const FAQ = () => {
             </p>
           </div>
         </div>
-        <div className="flex gap-4">
-          <div className="max-w-[520px] rounded-lg p-6 text-black bg-white">
+        <div className="flex flex-col sm:flex-row gap-4 mx-3">
+          <div className=" w-full sm:max-w-[520px]  rounded-lg p-6 text-black bg-white">
             <h1 className="font-ClashDisplay-Semibold text-2xl pb-2">
               The Best Financial Accounting <br></br> App Ever!
             </h1>
@@ -51,7 +51,7 @@ const FAQ = () => {
               ultricies. In ultrices malesuada elit mauris.&quot;
             </p>
           </div>
-          <div className="max-w-[520px] rounded-lg p-6 text-white bg-[#fd6257]">
+          <div className="w-full sm:max-w-[520px] rounded-lg p-6 text-white bg-[#fd6257]">
             <h1 className="font-ClashDisplay-Semibold text-2xl pb-2">
               The Best Financial Accounting <br></br> App Ever!
             </h1>
@@ -61,8 +61,8 @@ const FAQ = () => {
             </p>
           </div>
         </div>
-        <div className="flex gap-4">
-          <div className="max-w-[520px] rounded-lg p-6 text-white bg-[#fd6257]">
+        <div className="flex  flex-col sm:flex-row gap-4 mx-3 ">
+          <div className="w-full sm:max-w-[520px]  rounded-lg p-6 text-white bg-[#fd6257]  ">
             <h1 className="font-ClashDisplay-Semibold text-2xl pb-2">
               The Best Financial Accounting <br></br> App Ever!
             </h1>
@@ -71,7 +71,7 @@ const FAQ = () => {
               ultricies. In ultrices malesuada elit mauris.&quot;
             </p>
           </div>
-          <div className="max-w-[520px] rounded-lg p-6 text-black bg-white">
+          <div className="w-full sm:max-w-[520px] rounded-lg p-6 text-black bg-white">
             <h1 className="font-ClashDisplay-Semibold text-2xl pb-2">
               The Best Financial Accounting <br></br> App Ever!
             </h1>
