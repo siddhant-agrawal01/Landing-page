@@ -1,4 +1,3 @@
-
 import React from "react";
 import Image from "next/image";
 import headingSupport from "../../assets/headingSupport.png";
@@ -30,10 +29,12 @@ const Hero: React.FC = () => {
           <div></div>
 
           <div className="relative">
-            <h1 className="font-ClashDisplay-Bold md:text-left text-5xl text-center z-40 relative">
+            <h1 className="font-ClashDisplay-Bold md:text-left text-5xl text-center z-40 relative ">
               Make The Best Financial Decisions
             </h1>
-            <div className="absolute inset-0 z-0 -translate-y-40">
+            {/* <div className="absolute inset-0 z-0 -translate-y-40"> */}
+            <div className="absolute inset-0 z-0 -translate-y-10 md:-translate-y-40 flex justify-center h-max">
+
               <Image src={TextEffect} alt="Text Effect" />
             </div>
           </div>
